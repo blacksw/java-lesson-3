@@ -1,0 +1,63 @@
+package com.company;
+
+// **** 1 ****
+public class Main {
+
+	public static void main(String[] args) {
+		int a = 10;
+		float b = 1.5f;
+		int c = (int)(b*a);
+		System.out.println(c);
+
+		// 1-unary ,2 - binary,3- ternary
+		//unary
+		// -10
+		//!true
+
+		//	2 - binary
+		//  +,-,/,%,*
+		// comparsion
+		//  >, <, >=, <=, ==, !=
+		// && --> and
+		// || -> or
+		// ! -> not
+
+		// compact & assignment
+		// ++, --
+		// +=,-=,*=,/=
+}
+
+
+// **** 2 *****
+package com.company;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 100;
+		int c;
+		a+=b;
+		c = a++ +b;
+		// дело в приоритетности сперва сложилось потом инкрементировалось поэтому 210
+		
+
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+
+// ****	3 ****
+package com.company;
+
+public class Main {
+
+	public static void main(String[] args) {
+		final int PRICE = 20;
+		// final это констана 		
+		System.out.println(PRICE);
+	}
+}	
+	
+	
+}
